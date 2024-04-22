@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/carlos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapperContainer wrapperContainer-dark wrapperContainer-fixed">
+        <header class="header-container">
+            <div class="logo"> 
+                <img src="/imagem/Logotipo-1.png" alt="Pix" width="150px">
+            </div>
+           
+            <nav class="header_nav">
+                <div class="header-center-height">
+                    <button class="btn-expandir">
+                        <i class="bi bi-card-list"></i>
+                    </button>
+                    <ul class="menu-lateral">
+                        <li class="item-menu">
+                            <a href="#">
+                                <span class="icon"><i class="bi bi-house-door"></i></span>
+                                <span class="text-link">Página Inicial</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="#">
+                                <span class="icon"><i class="bi bi-camera2"></i></span>
+                                <span class="text-link">Portifólio</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="#">
+                                <span class="icon"><i class="bi bi-person-video2"></i></span>
+                                <span class="text-link">Fotografo</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="#">
+                                <span class="icon"><i class="bi bi-file-earmark-easel"></i></span>
+                                <span class="text-link">Serviços</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="#">
+                                <span class="icon"><i class="bi bi-bookmark-fill"></i></span>
+                                <span class="text-link">Sobre</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <nav class="header_nav1">
+                <ul>
+                    <li><a href="#">Cadastrar</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+    <div class="header">
+        <h1>Portfólio de Fotografia</h1>
+    </div>
+    
+    
+        
+    <section>
+        <h2>Informações Pessoais</h2>
+        <img src="/" alt="perfil do Fotografo" width="150px">
+        <form id="formulario">
+            <p><strong>Nome:</strong> <input type="text" id="nome" placeholder="Nome do Fotógrafo"></p>
+            <p><strong>Localização:</strong> <input type="text" id="localizacao" placeholder="Cidade, Estado, País"></p>
+            <p><strong>Contato:</strong> <input type="text" id="contato" placeholder="E-mail / Número de telefone"></p>
+            <input type="button" value="Salvar" onclick="exibirPerfil()">
+        </form>
+        
+        <div id="perfil" style="display: none;">
+            <h2>Perfil do Fotógrafo</h2>
+            <p><strong>Nome:</strong> <span id="nomePerfil"></span></p>
+            <p><strong>Localização:</strong> <span id="localizacaoPerfil"></span></p>
+            <p><strong>Contato:</strong> <span id="contatoPerfil"></span></p>
+        </div>
+    
+        <h2>Melhores Fotos</h2>
+        <div class="gallery">
+            <img src="foto1.jpg" alt="Descrição da Foto 1">
+            <img src="foto2.jpg" alt="Descrição da Foto 2">
+            <img src="foto3.jpg" alt="Descrição da Foto 3">
+            <img src="foto4.jpg" alt="Descrição da Foto 4">
+            <img src="foto5.jpg" alt="Descrição da Foto 5">
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2>Página de Galeria</h2>
+        <div class="gallery">
+            <img src="foto6.jpg" alt="Descrição da Foto 6">
+            <img src="foto7.jpg" alt="Descrição da Foto 7">
+            <img src="foto8.jpg" alt="Descrição da Foto 8">
+            <img src="foto9.jpg" alt="Descrição da Foto 9">
+            <img src="foto10.jpg" alt="Descrição da Foto 10">
+          
+        </div>
+        
+    </section>
+</body>
+</html>
+
+
